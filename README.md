@@ -9,7 +9,6 @@ This repo contains a single Jupyter notebook that implements a **federated learn
 - Each client fine-tunes only **LoRA parameters**
 - A central server that **aggregates LoRA weights** (no raw data is shared)
 
----
 
 ##  Project Overview
 
@@ -23,7 +22,6 @@ All the code lives in a single notebook:
 
 - `FL_Lora.ipynb` – complete experiment pipeline (data loading, client splits, LoRA setup, federated rounds, evaluation)
 
----
 
 ##  Model & Training Architecture
 
